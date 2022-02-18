@@ -1,0 +1,10 @@
+Package: PopGenInfeR
+Version: 0.8
+Date: 2021-02-28
+Title: A Pedagogical Tool to Teach the Basics of Inference in Population Genetics
+Author: Renaud Vitalis <renaud.vitalis@inrae.fr>.
+Maintainer: Renaud Vitalis <renaud.vitalis@inrae.fr>
+Depends: R (>= 3.0)
+Imports: coda,fields,locfit,MASS,methods,ade4,lattice
+Description: A pedagogical tool intended to teach the basics inference in population genetics, enabling to simulate data in an island model of population structure, and to estimate the model parameters by means of maximum likelihood and Markov chain Monte Carlo (MCMC) algorithms.
+License: GPL (>= 2)

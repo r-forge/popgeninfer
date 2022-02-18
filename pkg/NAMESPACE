@@ -1,0 +1,18 @@
+useDynLib(PopGenInfeR,.registration = TRUE,.fixes = "C_")
+
+export(fst)
+export(expected.fst)
+export(generate.prior)
+export(maximum.likelihood)
+export(run.mcmc)
+export(sim.coalescent)
+export(sim.inference.model)
+export(sim.island.model)
+export(prcp.ca)
+
+importFrom("grDevices","cm.colors","col2rgb","dev.new","rgb","topo.colors","trans3d")
+importFrom("graphics",".filled.contour","Axis","abline","axis","box","contour","par","persp","plot.new","plot.window","points","rect","title","plot")
+importFrom("stats","pchisq","qchisq","rbeta","rbinom","runif","sd")
+importFrom("utils","read.table","write.table")
+importFrom("methods","new")
+importFrom("stats","fitted")
